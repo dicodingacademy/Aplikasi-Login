@@ -2,21 +2,21 @@
 const modalElement = document.querySelector('#modal');
 
 // fungsi untuk menampilkan modal
-const showPopUp = () => {
+function showPopUp() {
   modalElement.classList.add('display');
 
   // menyembunyikan modal setelah 3 detik
-  setTimeout(() => {
+  setTimeout(function() {
     modalElement.classList.remove('display')
   }, 3000)
 }
 
 // pindah ke halaman home
-const goToHome = () => {
+function goToHome() {
   location.href = '/home.html';
 }
 
 // pindah ke halaman login
-const gotToLogin = () => {
+function gotToLogin() {
   location.href = '/';
 }
