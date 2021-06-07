@@ -21,7 +21,7 @@ jobs:
           source_dir: ./assets
           recurse: true
           output_dir: ./out
-          config_file: ./jsdoc/conf.json
+          config_file: ./assets/jsdoc/conf.json
           template: minami
           front_page: README
 
