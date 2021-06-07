@@ -1,10 +1,6 @@
 name: JSDoc build on GitHub repo
 
-on:
-  push:
-    branches:
-      - main
-      - 02-solution-study-case
+on: [push, fork]
 
 jobs:
   deploy:
