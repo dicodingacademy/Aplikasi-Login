@@ -4,3 +4,10 @@
  * Gunakan fungsi goToLogin() untuk menampilkan halaman login
  * Gunakan fungsi showPopUp() untuk menampilkan pop up error
  */
+
+/* TODO : Menambahkan fungsionalitas tombol logout */
+const buttonLogoutElement = document.querySelector('#buttonLogout');
+
+buttonLogoutElement.addEventListener('click', function() {
+  
+});
