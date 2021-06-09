@@ -34,3 +34,17 @@ main img {
 main h1 {
     text-align: center;
 }
+
+/* Comment : ... */
+/* TODO : Memperbaiki Tampilan Button/Tombol Logout */
+main .button-logout {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #F3F4F6;
+    color: #000000;
+}
