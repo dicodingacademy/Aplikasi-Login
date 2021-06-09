@@ -52,11 +52,11 @@ main img {
 .login-input button {
     margin-top: 32px;
     padding: 8px 32px;
-    background-color: #212936;
+    background-color: #F3F4F6;
     border: 0;
     border-radius: 8px;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
     text-transform: uppercase;
     float: right;
