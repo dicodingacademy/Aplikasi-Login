@@ -5,6 +5,7 @@
  * Gunakan fungsi showPopUp() untuk menampilkan pop up error
  */
 
+/* Comment : ... */
 /* TODO : Menambahkan fungsionalitas tombol logout */
 const buttonLogoutElement = document.querySelector('#buttonLogout');
 
