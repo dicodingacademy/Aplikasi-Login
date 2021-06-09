@@ -17,6 +17,6 @@ function goToHome() {
 }
 
 // pindah ke halaman login
-function gotToLogin() {
+function goToLogin() {
   location.href = './';
 }
