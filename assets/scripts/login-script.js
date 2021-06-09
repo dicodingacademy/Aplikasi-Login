@@ -18,7 +18,7 @@ loginFormElement.addEventListener('submit', function(event) {
   const email = inputEmailElement.value;
   const password = inputPasswordElement.value;
 
-  if (email === expectedEmail && password === expectedPassword) {
+  if (email == expectedEmail && password == expectedPassword) {
     goToHome();
   } else {
     showPopUp();
