@@ -1,6 +1,6 @@
 name: JSDoc build on GitHub repo
 
-on: [push, fork, workflow_dispatch]
+on: [push, workflow_dispatch]
 
 jobs:
   deploy:
