@@ -18,5 +18,5 @@ function goToHome() {
 
 // pindah ke halaman login
 function goToLogin() {
-  location.href = './';
+  location.href = './index.html';
 }
