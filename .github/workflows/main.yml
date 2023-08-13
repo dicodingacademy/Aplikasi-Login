@@ -1,4 +1,5 @@
 name: JSDoc build on GitHub repo
+aku ga ngerti bang
 
 on: [push, workflow_dispatch]
 
