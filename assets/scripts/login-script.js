@@ -20,6 +20,7 @@ loginFormElement.addEventListener('submit', function(event) {
   if (email == expectedEmail && password == expectedPassword) {
     goToHome();
   } else {
+    // kenapatidak berubah
     showPopUp();
   }
 });
