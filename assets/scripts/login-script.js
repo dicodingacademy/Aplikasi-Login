@@ -1,4 +1,4 @@
-/*
+  /*
  * Catatan:
  * Gunakan fungsi goToHome() untuk menampilkan halaman home
  * Gunakan fungsi goToLogin() untuk menampilkan halaman login
