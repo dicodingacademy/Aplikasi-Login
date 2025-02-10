@@ -1,0 +1,92 @@
+/**
+ * styling untuk halaman login
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F3F4F6;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 32px;
+}
+
+main img {
+    display: block;
+    margin: 0 auto 16px auto;
+    width: 100%;
+    max-width: 376px;
+}
+
+.login-input {
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: auto;
+}
+
+.login-input input {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+}
+
+.login-input button {
+    margin-top: 32px;
+    padding: 8px 32px;
+    background-color: #212936;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+    float: right;
+    cursor: pointer;
+}
+
+.pop-up-modal {
+    position: fixed;
+    padding: 8px 32px;
+    background-color: #cc0000;
+    color: white;
+    bottom: -100px;
+    opacity: 0;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;
+}
+
+.pop-up-modal h2 {
+    padding: 6px;
+}
+
+.pop-up-modal p {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.pop-up-modal.display {
+    bottom: 32px;
+    opacity: 1;
+}
